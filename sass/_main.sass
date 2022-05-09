@@ -1,0 +1,158 @@
+.about
+    padding-bottom: 28px
+    h2
+        font-family: Libre Franklin
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        color: $black
+        text-align: center
+        padding-top: 30px
+        margin-bottom: 28px
+
+    p
+        @extend %h1-style
+        color: $black
+        font-size: 12px
+        text-align: justify
+        line-height: 15px
+        margin-bottom: 20px
+
+.skills
+    background-color: #FFFAF2
+    h2
+        font-family: Libre Franklin
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        color: $black
+        text-align: center
+        padding-top: 28px
+        margin-bottom: 30px
+
+.skills1
+    display: flex
+    flex-direction: column
+    align-items: center
+    .skills_img
+        margin-bottom: 34px        
+   
+.skills_items
+    margin: 0 auto
+    width: 309px
+    display: flex
+    flex-direction: column
+        
+.skills_items
+    div
+        display: flex
+        // justify-content: space-between
+        align-items: center
+    h4
+        font-family: Libre Franklin
+        font-style: normal
+        font-weight: 600
+        font-size: 12px
+        line-height: 25px
+        color: $black
+        width: 88px
+    p
+        @extend %h1-style
+        color: $black
+        font-size: 12px  
+    
+
+           
+.big
+    width: 211px
+    height: 18px
+    background-color: #F5D6AB
+    .small
+        width: 135px
+        height: 18px
+        background-color: #C66C49
+
+.skills_items
+    .one
+        &:first-child            
+            margin-bottom: 42px
+        &:nth-child(even) 
+            margin-bottom: 20px
+            justify-content: space-between
+        &:nth-child(odd)
+            margin-bottom: 30px
+            
+.skills_items
+    .one
+        &:nth-child(1) 
+            h4
+                margin-right: 6px
+        &:nth-child(3) 
+            h4
+                margin-right: 9px
+        &:nth-child(5) 
+            h4
+                margin-right: 10px 
+        &:nth-child(7) 
+            h4
+                margin-right: 10px    
+
+.skills_items
+    .one
+        &:nth-child(2) 
+            .small
+                width: 135px
+        &:nth-child(4) 
+            .small
+                width: 165px
+        &:nth-child(6) 
+            .small
+                width: 179px 
+
+.portfolio
+    h2
+        font-family: Libre Franklin
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        color: $black
+        text-align: center
+        padding-top: 30px
+        margin-bottom: 32px
+
+    h5
+        font-family: Libre Franklin
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        line-height: 25px
+        color: $black
+        text-align: center
+        margin-bottom: 26px
+
+.port_items
+    width: 308px
+    margin: 0 auto
+    padding-bottom: 23px
+    
+    p
+        @extend %h1-style
+        color: $black
+        font-size: 12px
+        text-align: justify
+        line-height: 15px
+        text-align: center
+        margin-bottom: 29px
+
+    
+.port_img  
+    width: 308px
+    height: 195px
+    display: flex
+    .port_img1    
+        img
+            margin-bottom: 14px        
+    .port_img2
+        padding-left: 14px          
+        img
+            margin-bottom: 14px   
